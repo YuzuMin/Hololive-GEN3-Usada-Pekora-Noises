@@ -151,58 +151,58 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content">
                                     <TableRow
-                                        android:id="@+id/uto_img_row">
+                                        android:id="@+id/pekora0_img_row">
                                         <ImageView
                                             android:padding="10dp"
                                             android:src="@drawable/pekora0"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/uto_img"
+                                            android:id="@+id/pekora0_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Uto 0"
+                                            android:text="Pekora 0"
                                             android:textColor="@color/colorAccent"
-                                            android:layout_width="wrap_content"
+                                            android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
+
                                     <TableRow
-                                        android:id="@+id/uto1_img_row">
+                                        android:id="@+id/pekora1_img_row">
                                         <ImageView
                                             android:padding="10dp"
                                             android:src="@drawable/pekora1"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/uto1_img"
+                                            android:id="@+id/pekora1_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Uto 1"
+                                            android:text="Pekora 1"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
 
                                     <TableRow
-                                        android:id="@+id/uto2_img_row">
+                                        android:id="@+id/pekora2_img_row">
                                         <ImageView
                                             android:padding="10dp"
                                             android:src="@drawable/pekora2"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/uto2_img"
+                                            android:id="@+id/pekora2_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Uto 2"
+                                            android:text="Pekora 2"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
-
 
                                 </TableLayout>
 

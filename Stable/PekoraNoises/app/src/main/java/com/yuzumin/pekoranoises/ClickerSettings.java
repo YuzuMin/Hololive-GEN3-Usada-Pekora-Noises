@@ -16,17 +16,17 @@ public class ClickerSettings extends AppCompatActivity {
 
     ImageView back_btn;
 
-    TableRow UtoIMGRow;
-    TableRow UtoIMG1Row;
-    TableRow UtoIMG2Row;
+    TableRow PekoraIMG0Row;
+    TableRow PekoraIMG1Row;
+    TableRow PekoraIMG2Row;
 
-    CardView toggle_btn;
+    RadioButton PekoraIMG0;
+    RadioButton PekoraIMG1;
+    RadioButton PekoraIMG2;
 
     Integer charavalue;
 
-    RadioButton UtoIMG;
-    RadioButton UtoIMG1;
-    RadioButton UtoIMG2;
+    CardView toggle_btn;
 
     Switch switch1;
     Switch switch2;
@@ -150,86 +150,84 @@ public class ClickerSettings extends AppCompatActivity {
         });
 
 
-        UtoIMG=findViewById(R.id.uto_img);
-        UtoIMGRow =findViewById(R.id.uto_img_row);
-        UtoIMG1 =findViewById(R.id.uto1_img);
-        UtoIMG1Row =findViewById(R.id.uto1_img_row);
-        UtoIMG2 =findViewById(R.id.uto2_img);
-        UtoIMG2Row =findViewById(R.id.uto2_img_row);
+        PekoraIMG0=findViewById(R.id.pekora0_img);
+        PekoraIMG0Row =findViewById(R.id.pekora0_img_row);
+        PekoraIMG1 =findViewById(R.id.pekora1_img);
+        PekoraIMG1Row =findViewById(R.id.pekora1_img_row);
+        PekoraIMG2 =findViewById(R.id.pekora2_img);
+        PekoraIMG2Row =findViewById(R.id.pekora2_img_row);
         retrievedata();
 
-        UtoIMG.setOnClickListener(new View.OnClickListener() {
+        PekoraIMG0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=0;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                UtoIMG.setChecked(true);
-                UtoIMG1.setChecked(false);
-                UtoIMG2.setChecked(false);
-
+                PekoraIMG0.setChecked(true);
+                PekoraIMG1.setChecked(false);
+                PekoraIMG2.setChecked(false);
             }
         });
-        UtoIMGRow.setOnClickListener(new View.OnClickListener() {
+        PekoraIMG0Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=0;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                UtoIMG.setChecked(true);
-                UtoIMG1.setChecked(false);
-                UtoIMG2.setChecked(false);
+                PekoraIMG0.setChecked(true);
+                PekoraIMG1.setChecked(false);
+                PekoraIMG2.setChecked(false);
             }
         });
-        UtoIMG1.setOnClickListener(new View.OnClickListener() {
+        PekoraIMG1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=1;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                UtoIMG.setChecked(false);
-                UtoIMG1.setChecked(true);
-                UtoIMG2.setChecked(false);
+                PekoraIMG0.setChecked(false);
+                PekoraIMG1.setChecked(true);
+                PekoraIMG2.setChecked(false);
             }
         });
-        UtoIMG1Row.setOnClickListener(new View.OnClickListener() {
+        PekoraIMG1Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=1;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                UtoIMG.setChecked(false);
-                UtoIMG1.setChecked(true);
-                UtoIMG2.setChecked(false);
+                PekoraIMG0.setChecked(false);
+                PekoraIMG1.setChecked(true);
+                PekoraIMG2.setChecked(false);
             }
         });
-        UtoIMG2.setOnClickListener(new View.OnClickListener() {
+        PekoraIMG2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=2;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                UtoIMG.setChecked(false);
-                UtoIMG1.setChecked(false);
-                UtoIMG2.setChecked(true);
+                PekoraIMG0.setChecked(false);
+                PekoraIMG1.setChecked(false);
+                PekoraIMG2.setChecked(true);
             }
         });
-        UtoIMG2Row.setOnClickListener(new View.OnClickListener() {
+        PekoraIMG2Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=2;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                UtoIMG.setChecked(false);
-                UtoIMG1.setChecked(false);
-                UtoIMG2.setChecked(true);
-
+                PekoraIMG0.setChecked(false);
+                PekoraIMG1.setChecked(false);
+                PekoraIMG2.setChecked(true);
             }
         });
 
@@ -3545,11 +3543,11 @@ public class ClickerSettings extends AppCompatActivity {
         charavalue=SoundSettings.getInt("CharaValue",0);
 
         if(charavalue==0){
-            UtoIMG.setChecked(true);
+            PekoraIMG0.setChecked(true);
         }else if(charavalue==1){
-            UtoIMG1.setChecked(true);
+            PekoraIMG1.setChecked(true);
         }else if(charavalue==2){
-            UtoIMG2.setChecked(true);
+            PekoraIMG2.setChecked(true);
         }
     }
 }
