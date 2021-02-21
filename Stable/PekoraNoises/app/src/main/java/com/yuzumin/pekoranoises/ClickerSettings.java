@@ -19,10 +19,11 @@ public class ClickerSettings extends AppCompatActivity {
     TableRow PekoraIMG0Row;
     TableRow PekoraIMG1Row;
     TableRow PekoraIMG2Row;
-
+    TableRow PekoraIMG3Row;
     RadioButton PekoraIMG0;
     RadioButton PekoraIMG1;
     RadioButton PekoraIMG2;
+    RadioButton PekoraIMG3;
 
     Integer charavalue;
 
@@ -151,11 +152,13 @@ public class ClickerSettings extends AppCompatActivity {
 
 
         PekoraIMG0=findViewById(R.id.pekora0_img);
-        PekoraIMG0Row =findViewById(R.id.pekora0_img_row);
-        PekoraIMG1 =findViewById(R.id.pekora1_img);
-        PekoraIMG1Row =findViewById(R.id.pekora1_img_row);
-        PekoraIMG2 =findViewById(R.id.pekora2_img);
-        PekoraIMG2Row =findViewById(R.id.pekora2_img_row);
+        PekoraIMG0Row=findViewById(R.id.pekora0_img_row);
+        PekoraIMG1=findViewById(R.id.pekora1_img);
+        PekoraIMG1Row=findViewById(R.id.pekora1_img_row);
+        PekoraIMG2=findViewById(R.id.pekora2_img);
+        PekoraIMG2Row=findViewById(R.id.pekora2_img_row);
+        PekoraIMG3=findViewById(R.id.pekora3_img);
+        PekoraIMG3Row=findViewById(R.id.pekora3_img_row);
         retrievedata();
 
         PekoraIMG0.setOnClickListener(new View.OnClickListener() {
@@ -168,6 +171,7 @@ public class ClickerSettings extends AppCompatActivity {
                 PekoraIMG0.setChecked(true);
                 PekoraIMG1.setChecked(false);
                 PekoraIMG2.setChecked(false);
+                PekoraIMG3.setChecked(false);
             }
         });
         PekoraIMG0Row.setOnClickListener(new View.OnClickListener() {
@@ -180,6 +184,7 @@ public class ClickerSettings extends AppCompatActivity {
                 PekoraIMG0.setChecked(true);
                 PekoraIMG1.setChecked(false);
                 PekoraIMG2.setChecked(false);
+                PekoraIMG3.setChecked(false);
             }
         });
         PekoraIMG1.setOnClickListener(new View.OnClickListener() {
@@ -192,6 +197,7 @@ public class ClickerSettings extends AppCompatActivity {
                 PekoraIMG0.setChecked(false);
                 PekoraIMG1.setChecked(true);
                 PekoraIMG2.setChecked(false);
+                PekoraIMG3.setChecked(false);
             }
         });
         PekoraIMG1Row.setOnClickListener(new View.OnClickListener() {
@@ -204,6 +210,7 @@ public class ClickerSettings extends AppCompatActivity {
                 PekoraIMG0.setChecked(false);
                 PekoraIMG1.setChecked(true);
                 PekoraIMG2.setChecked(false);
+                PekoraIMG3.setChecked(false);
             }
         });
         PekoraIMG2.setOnClickListener(new View.OnClickListener() {
@@ -216,6 +223,7 @@ public class ClickerSettings extends AppCompatActivity {
                 PekoraIMG0.setChecked(false);
                 PekoraIMG1.setChecked(false);
                 PekoraIMG2.setChecked(true);
+                PekoraIMG3.setChecked(false);
             }
         });
         PekoraIMG2Row.setOnClickListener(new View.OnClickListener() {
@@ -228,6 +236,33 @@ public class ClickerSettings extends AppCompatActivity {
                 PekoraIMG0.setChecked(false);
                 PekoraIMG1.setChecked(false);
                 PekoraIMG2.setChecked(true);
+                PekoraIMG3.setChecked(false);
+            }
+        });
+        PekoraIMG3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                charavalue=3;
+                SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
+                SoundSettingsEditor.putInt("CharaValue",charavalue);
+                SoundSettingsEditor.apply();
+                PekoraIMG0.setChecked(false);
+                PekoraIMG1.setChecked(false);
+                PekoraIMG2.setChecked(false);
+                PekoraIMG3.setChecked(true);
+            }
+        });
+        PekoraIMG3Row.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                charavalue=3;
+                SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
+                SoundSettingsEditor.putInt("CharaValue",charavalue);
+                SoundSettingsEditor.apply();
+                PekoraIMG0.setChecked(false);
+                PekoraIMG1.setChecked(false);
+                PekoraIMG2.setChecked(false);
+                PekoraIMG3.setChecked(true);
             }
         });
 
@@ -3548,6 +3583,8 @@ public class ClickerSettings extends AppCompatActivity {
             PekoraIMG1.setChecked(true);
         }else if(charavalue==2){
             PekoraIMG2.setChecked(true);
+        }else if(charavalue==3){
+            PekoraIMG3.setChecked(true);
         }
     }
 }

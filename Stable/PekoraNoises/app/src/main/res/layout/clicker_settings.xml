@@ -204,6 +204,24 @@
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
 
+                                    <TableRow
+                                        android:id="@+id/pekora3_img_row">
+                                        <ImageView
+                                            android:padding="10dp"
+                                            android:src="@drawable/pekora3"
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"/>
+                                        <RadioButton
+                                            android:id="@+id/pekora3_img"
+                                            android:layout_gravity="center_vertical"
+                                            android:textSize="17dp"
+                                            android:buttonTint="@color/colorAccent"
+                                            android:text="Pekora 3"
+                                            android:textColor="@color/colorAccent"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"/>
+                                    </TableRow>
+
                                 </TableLayout>
 
                             </androidx.cardview.widget.CardView>

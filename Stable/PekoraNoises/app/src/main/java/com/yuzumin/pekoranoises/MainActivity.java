@@ -1231,6 +1231,8 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             image.setImageResource(R.drawable.pekora1);
         }else if (charavalue==2){
             image.setImageResource(R.drawable.pekora2);
+        }else if (charavalue==3){
+            image.setImageResource(R.drawable.pekora3);
         }
 
 
