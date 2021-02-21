@@ -1,0 +1,2385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blvck"
+    tools:context=".ClickerSettings">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:paddingHorizontal="53dp"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/abt_back"
+                android:layout_width="45dp"
+                android:layout_height="45dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textAlignment="center"
+                android:textColor="@color/porcelain"
+                android:textSize="25sp" />
+
+            <Space
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginBottom="13dp"
+                        app:cardBackgroundColor="@color/darkdarkblvck"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginHorizontal="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="13dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="2dp"
+                                app:cardBackgroundColor="@color/lightblvck"
+                                app:cardCornerRadius="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TableLayout
+                                    android:layout_marginVertical="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <TableRow
+                                        android:paddingHorizontal="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Turn On Clicker"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginTop="5dp"
+                                        android:paddingHorizontal="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Activate Popup Text"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+                                </TableLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:layout_marginVertical="10dp"
+                                android:text="Character Settings"
+                                android:textAlignment="center"
+                                android:textColor="#FFFFFF"
+                                android:textSize="17sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                            <androidx.cardview.widget.CardView
+                                app:cardBackgroundColor="@color/lightblvck"
+                                app:cardCornerRadius="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TableLayout
+                                    android:stretchColumns="0,1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TableRow
+                                        android:id="@+id/uto_img_row">
+                                        <ImageView
+                                            android:padding="10dp"
+                                            android:src="@drawable/pekora0"
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"/>
+                                        <RadioButton
+                                            android:id="@+id/uto_img"
+                                            android:layout_gravity="center_vertical"
+                                            android:textSize="17dp"
+                                            android:buttonTint="@color/colorAccent"
+                                            android:text="Uto 0"
+                                            android:textColor="@color/colorAccent"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+                                    </TableRow>
+                                    <TableRow
+                                        android:id="@+id/uto1_img_row">
+                                        <ImageView
+                                            android:padding="10dp"
+                                            android:src="@drawable/pekora1"
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"/>
+                                        <RadioButton
+                                            android:id="@+id/uto1_img"
+                                            android:layout_gravity="center_vertical"
+                                            android:textSize="17dp"
+                                            android:buttonTint="@color/colorAccent"
+                                            android:text="Uto 1"
+                                            android:textColor="@color/colorAccent"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"/>
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:id="@+id/uto2_img_row">
+                                        <ImageView
+                                            android:padding="10dp"
+                                            android:src="@drawable/pekora2"
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"/>
+                                        <RadioButton
+                                            android:id="@+id/uto2_img"
+                                            android:layout_gravity="center_vertical"
+                                            android:textSize="17dp"
+                                            android:buttonTint="@color/colorAccent"
+                                            android:text="Uto 2"
+                                            android:textColor="@color/colorAccent"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"/>
+                                    </TableRow>
+
+
+                                </TableLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:layout_marginVertical="10dp"
+                                android:text="Sound Settings"
+                                android:textAlignment="center"
+                                android:textColor="#FFFFFF"
+                                android:textSize="17sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                            <androidx.cardview.widget.CardView
+                                app:cardBackgroundColor="@color/lightblvck"
+                                app:cardCornerRadius="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TableLayout
+                                    android:layout_marginVertical="10dp"
+                                    android:id="@+id/tableLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TableRow
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <androidx.cardview.widget.CardView
+
+                                            android:layout_marginHorizontal="30dp"
+                                            app:cardCornerRadius="25dp"
+                                            android:layout_weight="1"
+                                            app:cardBackgroundColor="@color/button"
+                                            android:id="@+id/toggle_btn"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+                                            <TextView
+                                                android:layout_margin="3dp"
+                                                android:textAlignment="center"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="Toggle"
+                                                android:textColor="@color/blvck"
+                                                android:textSize="18sp" />
+                                        </androidx.cardview.widget.CardView>
+
+                                    </TableRow>
+
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="AAAAAAAAAAA!!"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch3"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Oh?"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch4"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Everyone my friend"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch5"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="You are my little pogchamp"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch6"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*blessed evil laugh*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch7"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="I am angry"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Watashi Ikatteiru"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch9"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Anata denwa yo"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch10"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="MMMM!"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch11"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Iyada x4"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch12"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Tenshi Breathing"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch13"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Yabai yabai"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch14"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*giving headpats*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch15"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ollie Chan I love you!"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch16"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Shinu"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch17"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="10Q Arigatou"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch18"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Nyaaa~~"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch19"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Omedetou Hapi Basuday"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch20"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Big yabe"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch21"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Moe Moe Kyun"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch22"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="NNNNNNNN!"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch23"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Nico Nico Nii"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch24"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Nice to Meet You"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch25"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="NEEEEEEEEEEEE!!!"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch26"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="omae wa mou shindeiru"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch27"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="omae wa mou shindeiru ASMR"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch28"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="LMAO"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch29"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Big Kusa"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch30"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*tenshi giggle*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch31"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*ABC song*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch32"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="HMPH"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch33"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Hey Moona"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch34"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Almond Almond"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch35"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*heavy breathing*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch36"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Arigato Minna"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch37"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Everyone is my husband, Okay?"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch38"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="BUN BUN CHA"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch39"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Onii Chan"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch40"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Papa"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch41"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ara Ara"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch42"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Pop Pop Pop"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch43"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Step Bro Nani o shimasu ka?"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch44"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Yoshi Yoshi Good Boy"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch45"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Yo Wazzup"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch46"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="I Love Everyone"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch47"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Bye Bye"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch48"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="WAAAAAA!"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch49"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Watafaq"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch50"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Im Die Thank You 4ever"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch51"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*tenshi noises*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch52"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="My New PC"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch53"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Yaaaaay"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch54"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Sugoi Yo"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch55"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ureshii Nee"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch56"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Very Strong Pc"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch57"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Interesting"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch58"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Pumpkin Pc"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch59"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Eroge suki janai"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch60"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="I am SIMP"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch61"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*struggling noises*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch62"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*Pekora laugh*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch63"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Don't cry"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch64"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Oya Oya"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch65"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Shuba Shuba"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch66"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Subaru Desu"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch67"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Haachama Chama"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch68"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Rushia Desu"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch69"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Holy coughs"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch70"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="GG Men"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch71"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Otsukaresama deshita"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch72"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*tenshi cries*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch73"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Study gambare"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch74"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Dinner,Bath or Superchat?"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch75"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ahoy"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch76"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Marine Desu"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch77"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Minna"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch78"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*smug laugh*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch79"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*satisfied noises*"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch80"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="PANIK"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch81"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Pain"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch82"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Onii Chan Asa Dayo"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch83"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Oh My God!"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch84"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Chu"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch85"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Nani"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch86"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Doyukoto"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch87"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Nande"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch88"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Konpeko"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch89"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="nab0i mama"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch90"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="No Pettan"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch91"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Normal Pettan"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch92"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Pettan janai no desu"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch93"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Normal Tenshi"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch94"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="I wink everyday"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch95"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Uto's sister"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch96"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Peko peko peko"
+                                            android:textColor="@color/porcelain"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch97"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Gambarimasu Onii Chan"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch98"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="*confused angry noises*"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch99"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Buruh"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch100"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Oboeta"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch101"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Poggars"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch102"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+
+
+
+
+                                </TableLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
