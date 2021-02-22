@@ -28,8 +28,8 @@ GNU General Public License V3
 * pekoranoise7 Sorry
 * pekoranoise8 Allies
 * pekoranoise9 I'm happy
-* pekoranoise10
-* pekoranoise11
+* pekoranoise10 Love
+* pekoranoise11 HA↑HA↑HA↑HA↑HA↑HA↑
 * pekoranoise12
 * pekoranoise13
 * pekoranoise14
