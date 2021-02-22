@@ -21,13 +21,13 @@ GNU General Public License V3
 # List of Noises
 * pekoranoise1 Pardun
 * pekoranoise2 Lova and Peace
-* pekoranoise3
-* pekoranoise4
-* pekoranoise5
-* pekoranoise6
-* pekoranoise7
-* pekoranoise8
-* pekoranoise9
+* pekoranoise3 Hellooo
+* pekoranoise4 Moona Chan
+* pekoranoise5 Take off your closets?
+* pekoranoise6 Okok
+* pekoranoise7 Sorry
+* pekoranoise8 Allies
+* pekoranoise9 I'm happy
 * pekoranoise10
 * pekoranoise11
 * pekoranoise12
