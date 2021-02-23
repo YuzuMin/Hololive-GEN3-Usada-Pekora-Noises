@@ -22,6 +22,8 @@ import com.yuzumin.pekoranoises.activities.AlarmActivity;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.yuzumin.pekoranoises.R;
+
 public class MainActivity extends AppCompatActivity implements Count.CountListener{
     ImageView image;
     TextView textCount;
@@ -318,7 +320,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
-                        Toast.makeText(this, "AAAAAAAAAAA!!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, getString(R.string.noise1_text), Toast.LENGTH_SHORT).show();
                     }
                     set2.start();
                     break;
@@ -327,7 +329,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
-                        Toast.makeText(this, "Oh?!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, getString(R.string.noise2_text), Toast.LENGTH_SHORT).show();
                     }
                     anim1.start();
                     break;

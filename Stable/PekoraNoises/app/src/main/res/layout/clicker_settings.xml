@@ -283,8 +283,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="AAAAAAAAAAA!!"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise1_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -304,8 +304,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Oh?"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise2_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -325,8 +325,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Everyone my friend"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise3_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -346,8 +346,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="You are my little pogchamp"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise4_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -367,8 +367,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*blessed evil laugh*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise5_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -388,8 +388,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="I am angry"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise6_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -409,8 +409,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Watashi Ikatteiru"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise7_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -430,8 +430,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Anata denwa yo"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise8_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -451,8 +451,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="MMMM!"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise9_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -472,8 +472,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Iyada x4"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise10_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -493,8 +493,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Tenshi Breathing"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise11_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -514,8 +514,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Yabai yabai"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise12_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -535,8 +535,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*giving headpats*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise13_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -556,8 +556,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Ollie Chan I love you!"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise14_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -577,8 +577,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Shinu"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise15_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -598,8 +598,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="10Q Arigatou"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise16_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -619,8 +619,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Nyaaa~~"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise17_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -640,8 +640,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Omedetou Hapi Basuday"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise18_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -661,8 +661,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Big yabe"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise19_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -682,8 +682,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Moe Moe Kyun"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise20_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -703,8 +703,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="NNNNNNNN!"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise21_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -724,8 +724,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Nico Nico Nii"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise22_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -745,8 +745,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Nice to Meet You"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise23_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -766,8 +766,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="NEEEEEEEEEEEE!!!"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise24_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -787,8 +787,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="omae wa mou shindeiru"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise25_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -808,8 +808,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="omae wa mou shindeiru ASMR"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise26_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -829,8 +829,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="LMAO"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise27_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -850,8 +850,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Big Kusa"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise28_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -871,8 +871,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*tenshi giggle*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise29_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -892,8 +892,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*ABC song*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise30_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -913,8 +913,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="HMPH"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise31_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -934,8 +934,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Hey Moona"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise32_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -955,8 +955,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Almond Almond"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise33_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -976,8 +976,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*heavy breathing*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise34_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -997,8 +997,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Arigato Minna"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise35_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1018,8 +1018,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Everyone is my husband, Okay?"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise36_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1039,8 +1039,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="BUN BUN CHA"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise37_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1060,8 +1060,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Onii Chan"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise38_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1081,8 +1081,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Papa"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise39_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1102,8 +1102,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Ara Ara"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise40_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1123,8 +1123,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Pop Pop Pop"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise41_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1144,8 +1144,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Step Bro Nani o shimasu ka?"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise42_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1165,8 +1165,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Yoshi Yoshi Good Boy"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise43_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1186,8 +1186,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Yo Wazzup"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise44_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1207,8 +1207,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="I Love Everyone"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise45_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1228,8 +1228,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Bye Bye"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise46_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1249,8 +1249,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="WAAAAAA!"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise47_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1270,8 +1270,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Watafaq"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise48_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1291,8 +1291,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Im Die Thank You 4ever"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise49_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1312,8 +1312,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*tenshi noises*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise50_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1333,8 +1333,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="My New PC"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise51_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1354,8 +1354,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Yaaaaay"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise52_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1375,8 +1375,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Sugoi Yo"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise53_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1396,8 +1396,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Ureshii Nee"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise54_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1417,8 +1417,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Very Strong Pc"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise55_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1438,8 +1438,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Interesting"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise56_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1459,8 +1459,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Pumpkin Pc"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise57_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1480,8 +1480,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Eroge suki janai"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise58_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1501,8 +1501,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="I am SIMP"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise59_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1522,8 +1522,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*struggling noises*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise60_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1543,8 +1543,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*Pekora laugh*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise61_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1564,8 +1564,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Don't cry"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise62_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1585,8 +1585,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Oya Oya"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise63_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1606,8 +1606,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Shuba Shuba"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise64_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1627,8 +1627,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Subaru Desu"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise65_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1648,8 +1648,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Haachama Chama"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise66_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1669,8 +1669,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Rushia Desu"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise67_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1690,8 +1690,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Holy coughs"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise68_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1711,8 +1711,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="GG Men"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise69_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1732,8 +1732,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Otsukaresama deshita"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise70_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1753,8 +1753,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*tenshi cries*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise71_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1774,8 +1774,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Study gambare"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise72_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1795,8 +1795,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Dinner,Bath or Superchat?"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise73_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1816,8 +1816,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Ahoy"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise74_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1837,8 +1837,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Marine Desu"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise75_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1858,8 +1858,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Minna"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise76_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1879,8 +1879,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*smug laugh*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise77_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1900,8 +1900,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*satisfied noises*"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise78_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1921,8 +1921,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="PANIK"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise79_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1942,8 +1942,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Pain"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise80_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1963,8 +1963,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Onii Chan Asa Dayo"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise81_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -1984,8 +1984,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Oh My God!"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise82_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2005,8 +2005,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Chu"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise83_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2026,8 +2026,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Nani"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise84_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2047,8 +2047,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Doyukoto"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise85_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2068,8 +2068,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Nande"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise86_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2089,8 +2089,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Konpeko"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise87_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2110,8 +2110,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="nab0i mama"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise88_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2131,8 +2131,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="No Pettan"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise89_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2152,8 +2152,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Normal Pettan"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise90_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2173,8 +2173,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Pettan janai no desu"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise91_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2194,8 +2194,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Normal Tenshi"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise92_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2215,8 +2215,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="I wink everyday"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise93_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2236,8 +2236,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Uto's sister"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise94_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2257,8 +2257,8 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Peko peko peko"
-                                            android:textColor="@color/porcelain"
+                                            android:text="@string/noise95_text"
+                                            android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
                                         <Switch
@@ -2278,7 +2278,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Gambarimasu Onii Chan"
+                                            android:text="@string/noise96_text"
                                             android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
@@ -2299,7 +2299,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="*confused angry noises*"
+                                            android:text="@string/noise97_text"
                                             android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
@@ -2320,7 +2320,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Buruh"
+                                            android:text="@string/noise98_text"
                                             android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
@@ -2341,7 +2341,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Oboeta"
+                                            android:text="@string/noise99_text"
                                             android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
@@ -2362,7 +2362,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Poggars"
+                                            android:text="@string/noise100_text"
                                             android:textColor="#f1f1f1"
                                             android:textSize="17sp" />
 
