@@ -44,11 +44,11 @@ GNU General Public License V3
 * pekoranoise23 Mac
 * pekoranoise24 Burger King
 * pekoranoise25 Fantastic Baby
-* pekoranoise26
-* pekoranoise27
-* pekoranoise28
-* pekoranoise29
-* pekoranoise30
+* pekoranoise26 Are ya winning son?
+* pekoranoise27 Xenoblade Definitive Edition
+* pekoranoise28 BANANA!!
+* pekoranoise29 Oh No No No Sleep
+* pekoranoise30 No No No
 * pekoranoise31
 * pekoranoise32
 * pekoranoise33
