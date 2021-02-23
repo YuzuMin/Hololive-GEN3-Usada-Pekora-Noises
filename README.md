@@ -49,17 +49,17 @@ GNU General Public License V3
 * pekoranoise28 BANANA!!
 * pekoranoise29 Oh No No No Sleep
 * pekoranoise30 No No No
-* pekoranoise31
-* pekoranoise32
-* pekoranoise33
-* pekoranoise34
-* pekoranoise35
-* pekoranoise36
-* pekoranoise37
-* pekoranoise38
-* pekoranoise39
-* pekoranoise40
-* pekoranoise41
+* pekoranoise31 Wake Up x2
+* pekoranoise32 It's me Pekora
+* pekoranoise33 Oh No Jesus
+* pekoranoise34 Oh no omaigod nonono
+* pekoranoise35 Pekora is boing boing
+* pekoranoise36 No flat
+* pekoranoise37 Big cup
+* pekoranoise38 Flat cup
+* pekoranoise39 World Big Cup
+* pekoranoise40 *Pekora Chinese*
+* pekoranoise41 5:50 AM! x2
 * pekoranoise42
 * pekoranoise43
 * pekoranoise44
