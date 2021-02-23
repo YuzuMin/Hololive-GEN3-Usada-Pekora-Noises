@@ -60,8 +60,8 @@ GNU General Public License V3
 * pekoranoise39 World Big Cup
 * pekoranoise40 *Pekora Chinese*
 * pekoranoise41 5:50 AM! x2
-* pekoranoise42
-* pekoranoise43
+* pekoranoise42 Konnhure~
+* pekoranoise43 Nice to meet you
 * pekoranoise44
 * pekoranoise45
 * pekoranoise46
