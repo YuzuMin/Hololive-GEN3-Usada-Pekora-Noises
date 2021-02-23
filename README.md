@@ -33,17 +33,17 @@ GNU General Public License V3
 * pekoranoise12 Coincidence
 * pekoranoise13 Ah yes
 * pekoranoise14 I think not
-* pekoranoise15
-* pekoranoise16
-* pekoranoise17
-* pekoranoise18
-* pekoranoise19
-* pekoranoise20
-* pekoranoise21
-* pekoranoise22
-* pekoranoise23
-* pekoranoise24
-* pekoranoise25
+* pekoranoise15 Time to simp
+* pekoranoise16 I'm so happy. Thank you
+* pekoranoise17 Omegalul
+* pekoranoise18 Hey!
+* pekoranoise19 America
+* pekoranoise20 I love America, Thank you Thank you
+* pekoranoise21 Hot Dog
+* pekoranoise22 Uhhhhhhh!
+* pekoranoise23 Mac
+* pekoranoise24 Burger King
+* pekoranoise25 Fantastic Baby
 * pekoranoise26
 * pekoranoise27
 * pekoranoise28
