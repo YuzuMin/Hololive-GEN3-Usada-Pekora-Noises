@@ -62,10 +62,10 @@ GNU General Public License V3
 * pekoranoise41 5:50 AM! x2
 * pekoranoise42 Konnhure~
 * pekoranoise43 Nice to meet you
-* pekoranoise44
-* pekoranoise45
-* pekoranoise46
-* pekoranoise47
+* pekoranoise44 *Pekora cries*
+* pekoranoise45 *Crazy comedian noises*
+* pekoranoise46 3,2,1 Bazooka
+* pekoranoise47 あれ
 * pekoranoise48
 * pekoranoise49
 * pekoranoise50
