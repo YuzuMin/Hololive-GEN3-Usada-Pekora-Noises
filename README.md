@@ -20,14 +20,14 @@ GNU General Public License V3
 
 # List of Noises
 * pekoranoise1 Pardun
-* pekoranoise2 Lova and Peace
+* pekoranoise2 Love and Peace
 * pekoranoise3 Hellooo
 * pekoranoise4 Moona Chan
 * pekoranoise5 Take off your closets?
 * pekoranoise6 Okok
 * pekoranoise7 Sorry
 * pekoranoise8 Allies
-* pekoranoise9 I'm happy
+* pekoranoise9 Hey Moona
 * pekoranoise10 Love
 * pekoranoise11 HA↑HA↑HA↑HA↑HA↑HA↑
 * pekoranoise12 Coincidence
@@ -36,7 +36,7 @@ GNU General Public License V3
 * pekoranoise15 Time to simp
 * pekoranoise16 I'm so happy. Thank you
 * pekoranoise17 Omegalul
-* pekoranoise18 Hey!
+* pekoranoise18 Bakatare ga
 * pekoranoise19 America
 * pekoranoise20 I love America, Thank you Thank you
 * pekoranoise21 Hot Dog
