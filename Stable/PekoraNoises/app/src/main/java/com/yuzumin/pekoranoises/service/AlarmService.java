@@ -26,7 +26,7 @@ public class AlarmService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.utonoise81);
+        mediaPlayer = MediaPlayer.create(this, R.raw.pekoranoise31);
         mediaPlayer.setLooping(true);
 
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
@@ -60,7 +60,6 @@ public class AlarmService extends Service {
     @Override
     public void onDestroy() {
         super.onDestroy();
-
         mediaPlayer.stop();
         vibrator.cancel();
     }

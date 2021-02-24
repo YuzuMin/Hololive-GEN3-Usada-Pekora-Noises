@@ -40,10 +40,20 @@ public class RingActivity extends AppCompatActivity {
 
         SavedSettings =getSharedPreferences("Chara",MODE_PRIVATE);
         charavalue= SavedSettings.getInt("CharaValue",0);
-        if(charavalue==0){
-            clock.setImageResource(R.drawable.pekora0);
-        }else if (charavalue==1){
-            clock.setImageResource(R.drawable.pekora1);
+
+        switch (charavalue) {
+            case 0:
+                clock.setImageResource(R.drawable.pekora0);
+                break;
+            case 1:
+                clock.setImageResource(R.drawable.pekora1);
+                break;
+            case 2:
+                clock.setImageResource(R.drawable.pekora2);
+                break;
+            default:
+                clock.setImageResource(R.drawable.pekora3);
+                break;
         }
 
         dismiss.setOnClickListener(new View.OnClickListener() {
