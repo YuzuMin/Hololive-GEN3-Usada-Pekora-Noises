@@ -20,7 +20,7 @@ GNU General Public License V3
 
 # List of Noises
 * pekoranoise1 Pardun
-* pekoranoise2 Lova and Peace
+* pekoranoise2 Love and Peace
 * pekoranoise3 Hellooo
 * pekoranoise4 Moona Chan
 * pekoranoise5 Take off your closets?
