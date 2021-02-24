@@ -36,7 +36,7 @@ GNU General Public License V3
 * pekoranoise15 Time to simp
 * pekoranoise16 I'm so happy. Thank you
 * pekoranoise17 Omegalul
-* pekoranoise18 Hey!
+* pekoranoise18 Bakatare ga
 * pekoranoise19 America
 * pekoranoise20 I love America, Thank you Thank you
 * pekoranoise21 Hot Dog
