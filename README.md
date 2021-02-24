@@ -66,9 +66,9 @@ GNU General Public License V3
 * pekoranoise45 *Crazy comedian noises*
 * pekoranoise46 3,2,1 Bazooka
 * pekoranoise47 あれ
-* pekoranoise48
-* pekoranoise49
-* pekoranoise50
+* pekoranoise48 Comedian
+* pekoranoise49 *Peko rage*
+* pekoranoise50 
 * pekoranoise51
 * pekoranoise52
 * pekoranoise53
