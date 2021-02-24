@@ -68,7 +68,7 @@ GNU General Public License V3
 * pekoranoise47 あれ
 * pekoranoise48 Comedian
 * pekoranoise49 *Peko rage*
-* pekoranoise50 
+* pekoranoise50 *panting*
 * pekoranoise51
 * pekoranoise52
 * pekoranoise53
