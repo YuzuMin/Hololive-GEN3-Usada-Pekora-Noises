@@ -31,6 +31,8 @@ public class ClickerSettings extends AppCompatActivity {
 
     Switch switch1;
     Switch switch2;
+
+
     Switch switch3;
     Switch switch4;
     Switch switch5;
@@ -109,7 +111,7 @@ public class ClickerSettings extends AppCompatActivity {
         PekoraIMG2Row=findViewById(R.id.pekora2_img_row);
         PekoraIMG3=findViewById(R.id.pekora3_img);
         PekoraIMG3Row=findViewById(R.id.pekora3_img_row);
-        retrievedata();
+
 
         PekoraIMG0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -216,7 +218,7 @@ public class ClickerSettings extends AppCompatActivity {
             }
         });
 
-
+        retrievedata();
 
 
 
@@ -478,7 +480,6 @@ public class ClickerSettings extends AppCompatActivity {
                     SoundSettingsEditor.apply();
                     switch52.setChecked(false);
 
-
                 }else{
 
                     SoundSettingsEditor =getSharedPreferences("save3",MODE_PRIVATE).edit();
@@ -730,7 +731,6 @@ public class ClickerSettings extends AppCompatActivity {
                     SoundSettingsEditor.putBoolean("value52",true);
                     SoundSettingsEditor.apply();
                     switch52.setChecked(true);
-
 
                 }
             }

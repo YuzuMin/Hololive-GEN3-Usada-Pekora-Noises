@@ -41,60 +41,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
     SharedPreferences SavedSettings;
 
     boolean switch1; //IMPORTANT : TO DISABLE TOAST POPUP
-    boolean switch2;
-    boolean switch3;
-    boolean switch4;
-    boolean switch5;
-    boolean switch6;
-    boolean switch7;
-    boolean switch8;
-    boolean switch9;
-    boolean switch10;
-    boolean switch11;
-    boolean switch12;
-    boolean switch13;
-    boolean switch14;
-    boolean switch15;
-    boolean switch16;
-    boolean switch17;
-    boolean switch18;
-    boolean switch19;
-    boolean switch20;
-    boolean switch21;
-    boolean switch22;
-    boolean switch23;
-    boolean switch24;
-    boolean switch25;
-    boolean switch26;
-    boolean switch27;
-    boolean switch28;
-    boolean switch29;
-    boolean switch30;
-    boolean switch31;
-    boolean switch32;
-    boolean switch33;
-    boolean switch34;
-    boolean switch35;
-    boolean switch36;
-    boolean switch37;
-    boolean switch38;
-    boolean switch39;
-    boolean switch40;
-    boolean switch41;
-    boolean switch42;
-    boolean switch43;
-    boolean switch44;
-    boolean switch45;
-    boolean switch46;
-    boolean switch47;
-    boolean switch48;
-    boolean switch49;
-    boolean switch50;
-    boolean switch51;
-    boolean switch52;
-
-
-
+    boolean switch2; //TO DISABLE CLICKER
 
     List<Integer> listofsounds;
     int charavalue;
@@ -765,253 +712,203 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
 
 
         SavedSettings =getSharedPreferences("save3", MODE_PRIVATE);
-        switch3= SavedSettings.getBoolean("value3",true);
-        if (switch3) {
+        if (SavedSettings.getBoolean("value3",true)) {
             listofsounds.add(3);
         }
         SavedSettings =getSharedPreferences("save4", MODE_PRIVATE);
-        switch4= SavedSettings.getBoolean("value4",true);
-        if (switch4) {
+        if (SavedSettings.getBoolean("value4",true)) {
             listofsounds.add(4);
         }
         SavedSettings =getSharedPreferences("save5", MODE_PRIVATE);
-        switch5= SavedSettings.getBoolean("value5",true);
-        if (switch5) {
+        if (SavedSettings.getBoolean("value5",true)) {
             listofsounds.add(5);
         }
         SavedSettings =getSharedPreferences("save6", MODE_PRIVATE);
-        switch6= SavedSettings.getBoolean("value6",true);
-        if (switch6) {
+        if (SavedSettings.getBoolean("value6",true)) {
             listofsounds.add(6);
         }
         SavedSettings =getSharedPreferences("save7", MODE_PRIVATE);
-        switch7= SavedSettings.getBoolean("value7",true);
-        if (switch7) {
+        if (SavedSettings.getBoolean("value7",true)) {
             listofsounds.add(7);
         }
         SavedSettings =getSharedPreferences("save8", MODE_PRIVATE);
-        switch8= SavedSettings.getBoolean("value8",true);
-        if (switch8) {
+        if (SavedSettings.getBoolean("value8",true)) {
             listofsounds.add(8);
         }
         SavedSettings =getSharedPreferences("save9", MODE_PRIVATE);
-        switch9= SavedSettings.getBoolean("value9",true);
-        if (switch9) {
+        if (SavedSettings.getBoolean("value9",true)) {
             listofsounds.add(9);
         }
         SavedSettings =getSharedPreferences("save10", MODE_PRIVATE);
-        switch10= SavedSettings.getBoolean("value10",true);
-        if (switch10) {
+        if (SavedSettings.getBoolean("value10",true)) {
             listofsounds.add(10);
         }
         SavedSettings =getSharedPreferences("save11", MODE_PRIVATE);
-        switch11= SavedSettings.getBoolean("value11",true);
-        if (switch11) {
+        if (SavedSettings.getBoolean("value11",true)) {
             listofsounds.add(11);
         }
         SavedSettings =getSharedPreferences("save12", MODE_PRIVATE);
-        switch12= SavedSettings.getBoolean("value12",true);
-        if (switch12) {
+        if (SavedSettings.getBoolean("value12",true)) {
             listofsounds.add(12);
         }
         SavedSettings =getSharedPreferences("save13", MODE_PRIVATE);
-        switch13= SavedSettings.getBoolean("value13",true);
-        if (switch13) {
+        if (SavedSettings.getBoolean("value13",true)) {
             listofsounds.add(13);
         }
         SavedSettings =getSharedPreferences("save14", MODE_PRIVATE);
-        switch14= SavedSettings.getBoolean("value14",true);
-        if (switch14) {
+        if (SavedSettings.getBoolean("value14",true)) {
             listofsounds.add(14);
         }
         SavedSettings =getSharedPreferences("save15", MODE_PRIVATE);
-        switch15= SavedSettings.getBoolean("value15",true);
-        if (switch15) {
+        if (SavedSettings.getBoolean("value15",true)) {
             listofsounds.add(15);
         }
         SavedSettings =getSharedPreferences("save16", MODE_PRIVATE);
-        switch16= SavedSettings.getBoolean("value16",true);
-        if (switch16) {
+        if (SavedSettings.getBoolean("value16",true)) {
             listofsounds.add(16);
         }
         SavedSettings =getSharedPreferences("save17", MODE_PRIVATE);
-        switch17= SavedSettings.getBoolean("value17",true);
-        if (switch17) {
+        if (SavedSettings.getBoolean("value17",true)) {
             listofsounds.add(17);
         }
         SavedSettings =getSharedPreferences("save18", MODE_PRIVATE);
-        switch18= SavedSettings.getBoolean("value18",true);
-        if (switch18) {
+        if (SavedSettings.getBoolean("value18",true)) {
             listofsounds.add(18);
         }
         SavedSettings =getSharedPreferences("save19", MODE_PRIVATE);
-        switch19= SavedSettings.getBoolean("value19",true);
-        if (switch19) {
+        if (SavedSettings.getBoolean("value19",true)) {
             listofsounds.add(19);
         }
         SavedSettings =getSharedPreferences("save20", MODE_PRIVATE);
-        switch20= SavedSettings.getBoolean("value20",true);
-        if (switch20) {
+        if (SavedSettings.getBoolean("value20",true)) {
             listofsounds.add(20);
         }
         SavedSettings =getSharedPreferences("save21", MODE_PRIVATE);
-        switch21= SavedSettings.getBoolean("value21",true);
-        if (switch21) {
+        if (SavedSettings.getBoolean("value21",true)) {
             listofsounds.add(21);
         }
         SavedSettings =getSharedPreferences("save22", MODE_PRIVATE);
-        switch22= SavedSettings.getBoolean("value22",true);
-        if (switch22) {
+        if (SavedSettings.getBoolean("value22",true)) {
             listofsounds.add(22);
         }
         SavedSettings =getSharedPreferences("save23", MODE_PRIVATE);
-        switch23= SavedSettings.getBoolean("value23",true);
-        if (switch23) {
+        if (SavedSettings.getBoolean("value23",true)) {
             listofsounds.add(23);
         }
         SavedSettings =getSharedPreferences("save24", MODE_PRIVATE);
-        switch24= SavedSettings.getBoolean("value24",true);
-        if (switch24) {
+        if (SavedSettings.getBoolean("value24",true)) {
             listofsounds.add(24);
         }
         SavedSettings =getSharedPreferences("save25", MODE_PRIVATE);
-        switch25= SavedSettings.getBoolean("value25",true);
-        if (switch25) {
+        if (SavedSettings.getBoolean("value25",true)) {
             listofsounds.add(25);
         }
         SavedSettings =getSharedPreferences("save26", MODE_PRIVATE);
-        switch26= SavedSettings.getBoolean("value26",true);
-        if (switch26) {
+        if (SavedSettings.getBoolean("value26",true)) {
             listofsounds.add(26);
         }
         SavedSettings =getSharedPreferences("save27", MODE_PRIVATE);
-        switch27= SavedSettings.getBoolean("value27",true);
-        if (switch27) {
+        if (SavedSettings.getBoolean("value27",true)) {
             listofsounds.add(27);
         }
         SavedSettings =getSharedPreferences("save28", MODE_PRIVATE);
-        switch28= SavedSettings.getBoolean("value28",true);
-        if (switch28) {
+        if (SavedSettings.getBoolean("value28",true)) {
             listofsounds.add(28);
         }
         SavedSettings =getSharedPreferences("save29", MODE_PRIVATE);
-        switch29= SavedSettings.getBoolean("value29",true);
-        if (switch29) {
+        if (SavedSettings.getBoolean("value29",true)) {
             listofsounds.add(29);
         }
         SavedSettings =getSharedPreferences("save30", MODE_PRIVATE);
-        switch30= SavedSettings.getBoolean("value30",true);
-        if (switch30) {
+        if (SavedSettings.getBoolean("value30",true)) {
             listofsounds.add(30);
         }
         SavedSettings =getSharedPreferences("save31", MODE_PRIVATE);
-        switch31= SavedSettings.getBoolean("value31",true);
-        if (switch31) {
+        if (SavedSettings.getBoolean("value31",true)) {
             listofsounds.add(31);
         }
         SavedSettings =getSharedPreferences("save32", MODE_PRIVATE);
-        switch32= SavedSettings.getBoolean("value32",true);
-        if (switch32) {
+        if (SavedSettings.getBoolean("value32",true)) {
             listofsounds.add(32);
         }
         SavedSettings =getSharedPreferences("save33", MODE_PRIVATE);
-        switch33= SavedSettings.getBoolean("value33",true);
-        if (switch33) {
+        if (SavedSettings.getBoolean("value33",true)) {
             listofsounds.add(33);
         }
         SavedSettings =getSharedPreferences("save34", MODE_PRIVATE);
-        switch34= SavedSettings.getBoolean("value34",true);
-        if (switch34) {
+        if (SavedSettings.getBoolean("value34",true)) {
             listofsounds.add(34);
         }
         SavedSettings =getSharedPreferences("save35", MODE_PRIVATE);
-        switch35= SavedSettings.getBoolean("value35",true);
-        if (switch35) {
+        if (SavedSettings.getBoolean("value35",true)) {
             listofsounds.add(35);
         }
         SavedSettings =getSharedPreferences("save36", MODE_PRIVATE);
-        switch36= SavedSettings.getBoolean("value36",true);
-        if (switch36) {
+        if (SavedSettings.getBoolean("value36",true)) {
             listofsounds.add(36);
         }
         SavedSettings =getSharedPreferences("save37", MODE_PRIVATE);
-        switch37= SavedSettings.getBoolean("value37",true);
-        if (switch37) {
+        if (SavedSettings.getBoolean("value37",true)) {
             listofsounds.add(37);
         }
         SavedSettings =getSharedPreferences("save38", MODE_PRIVATE);
-        switch38= SavedSettings.getBoolean("value38",true);
-        if (switch38) {
+        if (SavedSettings.getBoolean("value38",true)) {
             listofsounds.add(38);
         }
         SavedSettings =getSharedPreferences("save39", MODE_PRIVATE);
-        switch39= SavedSettings.getBoolean("value39",true);
-        if (switch39) {
+        if (SavedSettings.getBoolean("value39",true)) {
             listofsounds.add(39);
         }
         SavedSettings =getSharedPreferences("save40", MODE_PRIVATE);
-        switch40= SavedSettings.getBoolean("value40",true);
-        if (switch40) {
+        if (SavedSettings.getBoolean("value40",true)) {
             listofsounds.add(40);
         }
         SavedSettings =getSharedPreferences("save41", MODE_PRIVATE);
-        switch41= SavedSettings.getBoolean("value41",true);
-        if (switch41) {
+        if (SavedSettings.getBoolean("value41",true)) {
             listofsounds.add(41);
         }
         SavedSettings =getSharedPreferences("save42", MODE_PRIVATE);
-        switch42= SavedSettings.getBoolean("value42",true);
-        if (switch42) {
+        if (SavedSettings.getBoolean("value42",true)) {
             listofsounds.add(42);
         }
         SavedSettings =getSharedPreferences("save43", MODE_PRIVATE);
-        switch43= SavedSettings.getBoolean("value43",true);
-        if (switch43) {
+        if (SavedSettings.getBoolean("value43",true)) {
             listofsounds.add(43);
         }
         SavedSettings =getSharedPreferences("save44", MODE_PRIVATE);
-        switch44= SavedSettings.getBoolean("value44",true);
-        if (switch44) {
+        if (SavedSettings.getBoolean("value44",true)) {
             listofsounds.add(44);
         }
         SavedSettings =getSharedPreferences("save45", MODE_PRIVATE);
-        switch45= SavedSettings.getBoolean("value45",true);
-        if (switch45) {
+        if (SavedSettings.getBoolean("value45",true)) {
             listofsounds.add(45);
         }
         SavedSettings =getSharedPreferences("save46", MODE_PRIVATE);
-        switch46= SavedSettings.getBoolean("value46",true);
-        if (switch46) {
+        if (SavedSettings.getBoolean("value46",true)) {
             listofsounds.add(46);
         }
         SavedSettings =getSharedPreferences("save47", MODE_PRIVATE);
-        switch47= SavedSettings.getBoolean("value47",true);
-        if (switch47) {
+        if (SavedSettings.getBoolean("value47",true)) {
             listofsounds.add(47);
         }
         SavedSettings =getSharedPreferences("save48", MODE_PRIVATE);
-        switch48= SavedSettings.getBoolean("value48",true);
-        if (switch48) {
+        if (SavedSettings.getBoolean("value48",true)) {
             listofsounds.add(48);
         }
         SavedSettings =getSharedPreferences("save49", MODE_PRIVATE);
-        switch49= SavedSettings.getBoolean("value49",true);
-        if (switch49) {
+        if (SavedSettings.getBoolean("value49",true)) {
             listofsounds.add(49);
         }
         SavedSettings =getSharedPreferences("save50", MODE_PRIVATE);
-        switch50= SavedSettings.getBoolean("value50",true);
-        if (switch50) {
+        if (SavedSettings.getBoolean("value50",true)) {
             listofsounds.add(50);
         }
         SavedSettings =getSharedPreferences("save51", MODE_PRIVATE);
-        switch51= SavedSettings.getBoolean("value51",true);
-        if (switch51) {
+        if (SavedSettings.getBoolean("value51",true)) {
             listofsounds.add(51);
         }
         SavedSettings =getSharedPreferences("save52", MODE_PRIVATE);
-        switch52= SavedSettings.getBoolean("value52",true);
-        if (switch52) {
+        if (SavedSettings.getBoolean("value52",true)) {
             listofsounds.add(52);
         }
 
