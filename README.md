@@ -38,7 +38,7 @@ GNU General Public License V3
 * pekoranoise17 Omegalul
 * pekoranoise18 Bakatare ga
 * pekoranoise19 America
-* pekoranoise20 I love America, Thank you Thank you
+* pekoranoise20 I love America, Thank you 
 * pekoranoise21 Hot Dog
 * pekoranoise22 Uhhhhhhh!
 * pekoranoise23 Mac
