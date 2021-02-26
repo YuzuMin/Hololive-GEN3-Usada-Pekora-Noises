@@ -813,7 +813,7 @@ public class Reader extends AppCompatActivity {
                     "\n" +
                     "/***FIXES***/\n" +
                     "•New Randomizer\n" +
-                    "•Popup Text Error\n" +
+                    "•Android 7.1 Startup Bug\n" +
                     "\n" +
                     "\n" +
                     "/***HOW TO USE***/\n" +
