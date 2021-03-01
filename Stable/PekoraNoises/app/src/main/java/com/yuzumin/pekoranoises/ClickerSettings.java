@@ -29,6 +29,7 @@ public class ClickerSettings extends AppCompatActivity {
 
     CardView toggle_btn;
 
+    Switch switch0;
     Switch switch1;
     Switch switch2;
 
@@ -755,7 +756,26 @@ public class ClickerSettings extends AppCompatActivity {
 
 
 
-
+        // for switch 0 to activate
+        switch0=findViewById(R.id.switch0);
+        SoundSettings =getSharedPreferences("save0",MODE_PRIVATE);
+        switch0.setChecked(SoundSettings.getBoolean("value0",false));
+        switch0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(switch0.isChecked()){
+                    SoundSettingsEditor =getSharedPreferences("save0",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value0",true);
+                    SoundSettingsEditor.apply();
+                    switch0.setChecked(true);
+                }else{
+                    SoundSettingsEditor =getSharedPreferences("save0",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value0",false);
+                    SoundSettingsEditor.apply();
+                    switch0.setChecked(false);
+                }
+            }
+        });
 
         // for switch 1 to activate
         switch1=findViewById(R.id.switch1);

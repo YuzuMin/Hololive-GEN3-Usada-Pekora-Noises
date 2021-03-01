@@ -808,7 +808,7 @@ public class Reader extends AppCompatActivity {
                     "•Developer Mode\n" +
                     "•Alarm Clock\n" +
                     "•Google Drive Download\n" +
-                    "\n" +
+                    "•New Button Bar\n" +
                     "\n" +
                     "\n" +
                     "/***FIXES***/\n" +
@@ -819,7 +819,6 @@ public class Reader extends AppCompatActivity {
                     "/***HOW TO USE***/\n" +
                     "Go to menu and tap Version 7 times \n" +
                     "to unlock Alarm feature \n" +
-                    "\n" +
                     "\n" +
                     "\n" +
                     "/***IMPORTANT***/\n" +
