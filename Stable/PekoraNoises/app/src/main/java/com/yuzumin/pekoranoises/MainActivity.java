@@ -152,7 +152,6 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             @Override
             public void onClick(View v) {
                 if(switch2){
-                    count.increment();
                     startRandomSound();
                 }else{
                     Toast.makeText(v.getContext(), "NOT ACTIVE", Toast.LENGTH_SHORT).show();
