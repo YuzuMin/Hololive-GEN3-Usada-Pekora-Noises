@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
     CardView SoundBTN48;
     CardView SoundBTN49;
     CardView SoundBTN50;
+    CardView SoundBTN51;
 
 
 
@@ -625,6 +626,14 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             }
         });
 
+        SoundBTN51=findViewById(R.id.sound51);
+        SoundBTN51.setVisibility(View.GONE);
+        SoundBTN51.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(53);
+            }
+        });
 
 
         isFullAuto=false;
@@ -1194,6 +1203,15 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     }
                     set2.start();
                     break;
+                case 53:
+                    noise = MediaPlayer.create(this, R.raw.pekoranoise51);
+                    noise.setOnCompletionListener(listener);
+                    noise.start();
+                    if (switch1) {
+                        Toast.makeText(this, getString(R.string.noise51_text), Toast.LENGTH_SHORT).show();
+                    }
+                    anim1.start();
+                    break;
                 default:
                     Toast.makeText(this, "NO SOUND SELECTED", Toast.LENGTH_SHORT).show();
                     break;
@@ -1654,6 +1672,13 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             SoundBTN50.setVisibility(View.GONE);
         }
 
+        SavedSettings =getSharedPreferences("save53", MODE_PRIVATE);
+        if (SavedSettings.getBoolean("value53",false)) {
+            listofsounds.add(53);
+            SoundBTN51.setVisibility(View.VISIBLE);
+        }else{
+            SoundBTN51.setVisibility(View.GONE);
+        }
     }
 
     @Override
