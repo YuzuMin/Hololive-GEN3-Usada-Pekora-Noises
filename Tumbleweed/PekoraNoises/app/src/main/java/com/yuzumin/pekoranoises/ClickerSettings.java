@@ -88,6 +88,7 @@ public class ClickerSettings extends AppCompatActivity {
     Switch switch50;
     Switch switch51;
     Switch switch52;
+    Switch switch53;
 
 
     LinearLayout SoundSettingContainer;
@@ -492,6 +493,10 @@ public class ClickerSettings extends AppCompatActivity {
                     SoundSettingsEditor.apply();
                     switch52.setChecked(false);
 
+                    SoundSettingsEditor =getSharedPreferences("save53",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value53",false);
+                    SoundSettingsEditor.apply();
+                    switch53.setChecked(false);
                 }else{
 
                     SoundSettingsEditor =getSharedPreferences("save3",MODE_PRIVATE).edit();
@@ -744,6 +749,10 @@ public class ClickerSettings extends AppCompatActivity {
                     SoundSettingsEditor.apply();
                     switch52.setChecked(true);
 
+                    SoundSettingsEditor =getSharedPreferences("save53",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value53",true);
+                    SoundSettingsEditor.apply();
+                    switch53.setChecked(true);
                 }
             }
         });
@@ -1902,6 +1911,25 @@ public class ClickerSettings extends AppCompatActivity {
 
 // for switch 53 to activate
 
+        switch53=findViewById(R.id.switch53);
+        SoundSettings =getSharedPreferences("save53",MODE_PRIVATE);
+        switch53.setChecked(SoundSettings.getBoolean("value53",false));
+        switch53.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(switch53.isChecked()){
+                    SoundSettingsEditor =getSharedPreferences("save53",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value53",true);
+                    SoundSettingsEditor.apply();
+                    switch53.setChecked(true);
+                }else{
+                    SoundSettingsEditor =getSharedPreferences("save53",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value53",false);
+                    SoundSettingsEditor.apply();
+                    switch53.setChecked(false);
+                }
+            }
+        });
 
 
     }
