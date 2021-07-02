@@ -11,7 +11,7 @@ alt="Get it on Google Play"
 height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.pekoranoises)
 
 # Features
-* 50 noises
+* 51 noises
 * Alarm Clock
 * Google Drive Download
 
@@ -69,3 +69,4 @@ GNU General Public License V3
 * pekoranoise48 Comedian
 * pekoranoise49 *Peko rage*
 * pekoranoise50 *panting*
+* pekoranoise51 RRRRRRRAT
