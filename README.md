@@ -16,7 +16,7 @@ height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.pekorano
 * Google Drive Download
 
 # License
-GNU General Public License V3
+MIT License
 
 # List of Noises
 * pekoranoise1 Pardun
